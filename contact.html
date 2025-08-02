@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>&#128062; Welcome to Adopt a Pet!</h1>
+        <p>Find your perfect furry friend and give them a forever home</p>
+        <nav>
+            <a href="../petAdoption/index.html">About</a> |
+            <a href="../petAdoption/pet.html">Pets for Adoption</a> |
+            <a href="../petAdoption/record.html">Record</a> |
+            <a href="../petAdoption/why-adopt.html">Why Adopt?</a> |
+            <a href="../petAdoption/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2> Contact Us to Adopt</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="pet">Which pet are you interested in?</label><br>
+            <select id="pet" name="pet">
+                <option>Default</option>
+                <option value="bella">Bella (Dog)</option>
+                <option value="whiskers">Whiskers (Cat)</option>
+                <option value="nibbles">Clover (Rabbit)</option>
+            </select><br><br>
+
+            <label for="message">Why do you want to adopt?</label><br>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+            <button type="submit">Send Adoption Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Thank you for supporting rescue animals!<br>
+            Visit <a href="https://www.petfinder.com/" target="_blank">Petfinder</a> to see more adoptable pets.</p>
+    </footer>
+</body>
+
+</html>
